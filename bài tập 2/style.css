@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.block{
+	width: 80%;
+	/* float: left; */
+	height: 60px;
+	background-color: white;
+	margin: auto;
+	padding: 20px 0px;
+
+}
+.logo{
+	width: 200px;
+	height: 100%;
+	background-color: white;
+	float: left;
+	margin-right: 80px;
+	margin-top: 5px;
+	/* display: flex;
+	flex-direction: row;
+	align-self: center; */
+}
+.logo img{
+	width: 200px;
+	display: flex;
+	
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.menu a{
+	font-size: 17px;
+	font-family: Arial;
+	display: block;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #333333;
+}
+
+.icon{
+	width: 25%;
+	height: 90px;
+	float: left;
+	
+}
+
+.center{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.icon img{
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+.block-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+.icon h3{
+	color: #333333;
+	font-size: 16px;
+	font-family: Arial;
+}
+.icon p{
+	display: block;
+	margin-top: 10px;
+	color: #919191;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+.block-2{
+	width: 100%;
+	padding: 50px 0px 170px ;
+	
+	background-color: red;
+}
+
+.text-hover{
+	width: 240px;
+	padding: 0px 15px;
+	background-color: green;
+	float: left;
+}
+
+.text-1 a{
+	font-size: 18px;
+	font-family: Arial;
+	text-decoration: none;
+}
+.text-2 a{
+	display: block;
+	text-decoration: none;
+	padding: 15px 0px;
+}
+.text-3 a{
+	text-decoration: none;
+}
+
+.product{
+	padding: 0px 15px;
+	width: 720px;
+	background-color: gray;
+}
+
+.san-pham-moi{
+	
+}
